@@ -3,7 +3,7 @@
 A blockchain is a chain(list) of related blocks. 
 
 ### The structure of block:
-![](../../Downloads/1*l3q104r2txeX7fC7dLOQUQ.png)
+![](https://miro.medium.com/max/1364/1*l3q104r2txeX7fC7dLOQUQ.png)
 
 A block consist of a list of transaction(in this program a string is used to simplify),
 a hash of the previous block in the chain, and a certain nonce value 
