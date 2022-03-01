@@ -1,6 +1,8 @@
-fun main(args: Array<String>) {
-    val chain = Blockchain()
 
+
+fun main(args: Array<String>) {
+
+    val chain = Blockchain()
 
     val block1 = Block("1","Block 1",1)
     //hash of block1 in my machine, it is also previous hash of block2.
@@ -19,6 +21,8 @@ fun main(args: Array<String>) {
     println(chain.isValid()) //hash of block2 and previous hash of block3 are not equal, returns false.
 
     printBlockChain(chain)
+
+
 }
 
 fun printBlockChain(_chain: Blockchain) {
