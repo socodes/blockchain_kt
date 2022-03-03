@@ -28,11 +28,13 @@ class TestChains {
     fun testWrongChain() {
         val block1 = Block("1","Block 1",1)
         val block2 = Block("2","Block 2",1)
+        val block3 = Block("3","Block 3",1)
 
         val wrong = Blockchain()
 
         wrong.add(block1)
         wrong.add(block2)
+        wrong.add(block3)
         val result = wrong.isValid()
         assertEquals(false, result)
 
