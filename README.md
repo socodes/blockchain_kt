@@ -1,3 +1,5 @@
+[![Build](https://github.com/socodes/blockchain_kt/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/socodes/blockchain_kt/actions/workflows/build.yml)
+
 # Blockchain in Kotlin
 
 A blockchain is a chain(list) of related blocks. 
