@@ -32,7 +32,7 @@ internal class MainKtTest{
         wrong.add(block2)
         wrong.add(block3)
         val result = wrong.isValid()
-        assertEquals(true, result)
+        assertEquals(false, result)
 
     }
 
