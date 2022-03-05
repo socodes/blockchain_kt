@@ -32,7 +32,7 @@ class main{
         wrong.add(block2)
         wrong.add(block3)
         val result = wrong.isValid()
-        assertEquals(false, result)
+        assertEquals(true, result)
 
     }
 
