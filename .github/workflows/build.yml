@@ -22,8 +22,10 @@ jobs:
           - name: Run the Gradle package task
             uses: gradle/gradle-build-action@937999e9cc2425eddc7fd62d1053baf041147db7
 
+          - name: Grant Permissions to gradlew
+            run: chmod +x gradlew
           - name: Test
-              run: ./gradle test --tests "*"
+            run: gradle test --tests "*"
 
 
 
