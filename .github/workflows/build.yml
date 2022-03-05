@@ -25,7 +25,7 @@ jobs:
           - name: Grant Permissions to gradlew
             run: chmod +x gradlew
           - name: Test
-            run: ./gradlew build 
+            run: ./gradlew test
 
 
 
