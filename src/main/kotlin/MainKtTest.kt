@@ -1,10 +1,6 @@
-
-import Block
-import Blockchain
 import junit.framework.Assert.assertEquals
 import org.junit.Test
-
-class TestChains {
+internal class MainKtTest{
     @Test
     //Chain has 2 blocks and 2nd block's previous hash is equal to 1st block's hash.
     //Chain should be valid.
