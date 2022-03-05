@@ -1,6 +1,6 @@
 import junit.framework.Assert.assertEquals
 import org.junit.Test
-class Main{
+class main{
     @Test
     //Chain has 2 blocks and 2nd block's previous hash is equal to 1st block's hash.
     //Chain should be valid.
