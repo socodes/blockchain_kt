@@ -1,10 +1,6 @@
 name: Build
 
-on:
-    push:
-        branches: [main]
-    pull_request:
-        branches: [main]
+on: push
 
 jobs:
   build:
@@ -39,7 +35,3 @@ jobs:
         with:
           directory: ./build/jacoco
           verbose: true # optional (default = false)
-
-
-
-
