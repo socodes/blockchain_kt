@@ -30,7 +30,7 @@ jobs:
           java-version: '11'
       - name: Run build
         run: |
-          ./gradlew clean build
+        
       - uses: codecov/codecov-action@v2
         with:
           directory: ./build/jacoco
