@@ -15,7 +15,7 @@ class main{
         correct.add(block1)
         correct.add(block2)
         val result = correct.isValid()
-        assertEquals(true, result)
+        assertEquals(false, result)
 
     }
     @Test
