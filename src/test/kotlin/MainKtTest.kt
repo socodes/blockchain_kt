@@ -7,7 +7,7 @@ class main{
     fun testCorrectChain() {
         val block1 = Block("1","Block 1",1)
         //hash of block1 in my machine, it is also previous hash of block2.
-        val hashOfBlock1 = "e021bf15883d1956933b77c8d7fa039f580a5a13179bdbead70d3106743942f4"
+        val hashOfBlock1 = "e021bf15883d1956933b77c8d7fa039f580a5a13179bdbead70d3106743942f4
         val block2 = Block(hashOfBlock1,"Block 2",1)
 
         val correct = Blockchain()
